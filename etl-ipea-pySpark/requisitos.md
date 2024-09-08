@@ -34,7 +34,7 @@ Há disponível uma biblioteca do python para acessar dados de séries temporais
 A série temporal que será utilizada será de preço por barril do petróleo bruto Brent (FOB) com código EIA366_PBRENT366, é uma série temporal com dados diários desde 04/01/1986.
 
 ## Pipeline do ETL
-![Pipeline-ETL]()
+![Pipeline-ETL](https://github.com/augusto-vieira/Estudos-em-ETL/blob/main/etl-ipea-pySpark/IMG/Pipeline_ETL.png)
 
 `Extract`: dados brutos do petróleo, obtidos pela biblioteca 'ipeadatapy', carregados em um DataFrame do PySpark. Os dados obtidos são persistidos em formato **Parquet** na camada `RAW`.
 
