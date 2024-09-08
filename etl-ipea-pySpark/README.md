@@ -58,14 +58,15 @@
 
 ![Paricao](https://cloud.google.com/static/bigquery/images/clustering-and-partitioning-tables.png)
 
-Em um **Data Lake**, é comum trabalhar com diferentes categorias de dados com base na sua relevância e frequência de uso: dado quente, dado morno e dado frio.
+Em um **Data Lake**, é comum trabalhar com diferentes categorias de dados com base na sua relevância e frequência de uso: `dado quente`, `dado morno` e `dado frio`.
 
-**Dado quente** é frequentemente acessado e atualizado, por isso precisa de maior desempenho.
+**Dado quente**: frequentemente acessado e atualizado, por isso precisa de maior desempenho.
 
-**Dado morno** é acessado com menos frequência e pode ser movido para camadas de armazenamento intermediárias.
+**Dado morno**: acessado com menos frequência e pode ser movido para camadas de armazenamento intermediárias.
 
-**Dado frio** é raramente acessado e pode ser armazenado em locais mais baratos e de maior latência.
-Espurgo é o processo de remover ou arquivar dados antigos que não são mais úteis, liberando espaço e mantendo a eficiência do sistema.
+**Dado frio**: raramente acessado e pode ser armazenado em locais mais baratos e de maior latência.
+
+> Espurgo é o processo de remover ou arquivar dados antigos que não são mais úteis, liberando espaço e mantendo a eficiência do sistema.
 
 > Encadeamente de ETL:
 > 
